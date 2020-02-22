@@ -1,2 +1,1 @@
-const g = G$( 'Pablo', 'Cianes', 'es' );
-console.log(g);
+G$( 'Pablo', 'Cianes').log().greet().greet(true).setLang('es').greet().greet(true);
