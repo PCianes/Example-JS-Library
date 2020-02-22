@@ -1,5 +1,4 @@
-# ${1:Project Name}
-GREETR
+# GREETR
 ## Description
 1. When given a first name, last name, and optional language, it generates formal and informal greetings.
 2. Support English and Spanish languages
