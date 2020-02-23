@@ -1,5 +1,7 @@
 ;( function( global, $ ){
 
+    'use strict';
+
     /* Init "new" main object with helper method: init */
     const Greetr = function( firstName, lastName, language ){
         return new Greetr.init( firstName, lastName, language );
@@ -111,6 +113,6 @@
     Greetr.init.prototype = Greetr.prototype;
 
     /* Attach our Greetr to the global object, and provide a shorthand '$G' for ease our poor fingers */
-    global.Greetr = global.G$ = Greetr;
+    global.Greetr = global.$G = Greetr;
 
 }( window, jQuery ) );

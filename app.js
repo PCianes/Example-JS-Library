@@ -11,7 +11,7 @@ $('#login').click( function(){
         Gets a new object and use our chainable methods
         ( the architecture allows us to not have to use the 'new' kewyword here ) 
     */
-    G$( firstName, lastName )
+    $G( firstName, lastName )
         .setLang( language )
         .HTMLGreeting( '#greeting', true )
         .log();
